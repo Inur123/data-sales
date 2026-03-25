@@ -4,6 +4,14 @@ Sistem mini untuk **manajemen data penjualan** dan **prediksi status produk (Lar
 
 ---
 
+## 📸 Screenshots
+
+- **Login Page**: [screenshots/login.png](./screenshots/login.png)
+- **Dashboard**: [screenshots/dashboard.png](./screenshots/dashboard.png)
+- **API Documentation**: [screenshots/swagger.png](./screenshots/swagger.png)
+
+---
+
 ## Struktur Project
 
 ```
@@ -30,6 +38,7 @@ data-sales/
 │   └── model/                    # Auto-created on training
 │       ├── sales_model.joblib
 │       └── evaluation.json
+├── screenshots/          # Simpan screenshot UI di sini
 ├── data/
 │   └── sales_data.csv
 └── README.md
@@ -182,11 +191,11 @@ POST /api/v1/auth/login
 
 ## Machine Learning
 
-### Model
-- **Algoritma:** Random Forest Classifier
-- **Library:** scikit-learn
-- **Fitur input:** `jumlah_penjualan`, `harga`, `diskon`
-- **Target:** `status` (Laris = 1, Tidak = 0)
+### Frontend
+- **Framework**: React JS (Vite)
+- **Styling**: Tailwind CSS + Shadcn design pattern
+- **Features**: JWT Login, Search, Client-side Pagination, Responsive Grid
+- **Icons**: Lucide-react
 
 ### Preprocessing
 - Drop baris dengan nilai kosong
