@@ -1,0 +1,45 @@
+{
+  "accuracy": 1.0,
+  "classification_report": {
+    "Tidak": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 278.0
+    },
+    "Laris": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 722.0
+    },
+    "accuracy": 1.0,
+    "macro avg": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 1000.0
+    },
+    "weighted avg": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 1000.0
+    }
+  },
+  "confusion_matrix": [
+    [
+      278,
+      0
+    ],
+    [
+      0,
+      722
+    ]
+  ],
+  "feature_importances": {
+    "jumlah_penjualan": 0.986,
+    "harga": 0.0116,
+    "diskon": 0.0024
+  }
+}
