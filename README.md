@@ -64,11 +64,11 @@ pip install -r requirements.txt
 
 ### 3. Train Model ML
 
-> Wajib dijalankan sebelum endpoint `/predict` bisa digunakan.
+> Wajib dijalankan sebelum endpoint `/predict` bisa digunakan. Pastikan venv backend sudah diinstall.
 
 ```bash
 # Dari root project (data-sales/)
-python ml/train.py
+./backend/venv/bin/python3 ml/train.py
 ```
 
 Output yang dihasilkan:
